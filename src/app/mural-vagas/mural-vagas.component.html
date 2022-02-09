@@ -1,0 +1,14 @@
+<section class="lista-vagas">
+    <div *ngFor="let vaga of vagas">
+        <div class="mural">
+            <div class="card">
+                <h5>ID da vaga: {{vaga.id}}</h5>
+                <h5>Vaga: {{vaga.nome}}</h5>
+                <p>Descição da vaga: {{vaga.descricao}}</p>
+                <p>Salário: R$ {{vaga.salario}},00</p>
+                <button>Candidatar</button>
+                <hr>
+            </div>
+        </div>
+    </div>
+</section>

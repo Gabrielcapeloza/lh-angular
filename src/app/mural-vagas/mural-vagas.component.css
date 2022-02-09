@@ -1,0 +1,15 @@
+.lista-vagas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card{
+    margin:0 25% 0 25%;
+    text-align: center;
+}
+
+button{
+    margin: auto;
+    width:15%;
+}
